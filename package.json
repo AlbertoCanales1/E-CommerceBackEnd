@@ -1,8 +1,15 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "e-commercebackend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -11,18 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "git+https://github.com/AlbertoCanales1/E-CommerceBackEnd.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^2.0.3"
+  "bugs": {
+    "url": "https://github.com/AlbertoCanales1/E-CommerceBackEnd/issues"
   },
-  "dependencies": {
-    "dotenv": "^8.6.0",
-    "express": "^4.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^5.22.4"
-  }
+  "homepage": "https://github.com/AlbertoCanales1/E-CommerceBackEnd#readme"
 }
